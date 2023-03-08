@@ -13,7 +13,7 @@ const ContactsList = ({ title }) => {
     dispatch(fetchContacts());
   }, [dispatch]);
 
-  console.log('contacts ===> ', contacts);
+  // console.log('contacts ===> ', contacts);
   return (
     <>
       <h2 className={styles.title}>{title}</h2>
